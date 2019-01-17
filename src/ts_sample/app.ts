@@ -1,5 +1,5 @@
 import { APIGatewayEvent, Context, Callback } from 'aws-lambda';
-import { func } from '../library/utils';
+import { func } from '@yasu-s/library/utils';
 
 const handler = (event: APIGatewayEvent, context: Context, callback: Callback) => {
   func();

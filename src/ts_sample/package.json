@@ -9,12 +9,19 @@
     "aws-lambda": "~0.1.2"
   },
   "scripts": {
-    "build": "yarn && tsc"
+    "build": "yarn && tsc",
+    "build:w": "yarn && webpack"
   },
   "devDependencies": {
+    "@types/aws-lambda": "~8.10.17",
+    "@types/node": "^10.12.18",
+    "@types/webpack": "^4.4.23",
+    "awesome-typescript-loader": "^5.2.1",
     "chai": "^4.1.2",
     "mocha": "^5.1.1",
+    "ts-node": "^7.0.1",
     "typescript": "~3.2.2",
-    "@types/aws-lambda": "~8.10.17"
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
   }
 }

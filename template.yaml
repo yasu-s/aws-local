@@ -34,7 +34,7 @@ Resources:
       Properties:
         Runtime: nodejs8.10
         CodeUri: src/ts_sample
-        Handler: dist/ts_sample/app.handler
+        Handler: dist/app.handler
         Events:
           Vote:
             Type: Api
