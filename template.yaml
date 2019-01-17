@@ -33,8 +33,8 @@ Resources:
       Type: 'AWS::Serverless::Function'
       Properties:
         Runtime: nodejs8.10
-        CodeUri: src/ts_sample/dist/ts_sample
-        Handler: app.handler
+        CodeUri: src/ts_sample
+        Handler: dist/ts_sample/app.handler
         Events:
           Vote:
             Type: Api
