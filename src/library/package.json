@@ -1,0 +1,12 @@
+{
+  "name": "@yasu-s/library",
+  "version": "1.0.0",
+  "description": "TypeScript Library Sample.",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "~3.2.2"
+  }
+}

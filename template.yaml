@@ -29,6 +29,19 @@ Resources:
                         Path: /hello
                         Method: get
 
+    TsSampleFunction:
+      Type: 'AWS::Serverless::Function'
+      Properties:
+        Runtime: nodejs8.10
+        CodeUri: src/ts_sample/dist/ts_sample
+        Handler: app.handler
+        Events:
+          Vote:
+            Type: Api
+            Properties:
+              Path: /ts_sample
+              Method: get
+
 Outputs:
 
     HelloWorldApi:
