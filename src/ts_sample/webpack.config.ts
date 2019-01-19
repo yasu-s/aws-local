@@ -8,11 +8,12 @@ const config: webpack.Configuration = {
   entry: "./app.ts",
   output: {
     path: path.resolve("./dist"),
-    filename: "app.js"
+    filename: "app.js",
+    libraryTarget: 'commonjs2',
   },
   target: "node",
   resolve: {
-    extensions: [".json", ".ts", ".js"]
+    extensions: [".ts", ".js"]
   },
   plugins: [
     // new webpack.optimize.UglifyJsPlugin()

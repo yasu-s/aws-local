@@ -15,7 +15,6 @@ TypeScriptでビルドしたものについてもあわせて配置していま�
 
 # 使用ライブラリ
 
-* aws-lambda
 * TypeScript
 * Webpack
 

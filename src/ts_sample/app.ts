@@ -1,16 +1,21 @@
-import { APIGatewayEvent, Context, Callback } from 'aws-lambda';
-import { func } from '@yasu-s/library/utils';
+import { func, getMessage } from '@yasu-s/library/utils';
 
-const handler = (event: APIGatewayEvent, context: Context, callback: Callback) => {
-  func();
+exports.handler = async (event: any, context: any) => {
+  let response: any;
 
-  callback(null, {
-    statusCode: 200,
-    headers: {
-      'Content-Type': 'application/json;charset=UTF-8'
-    },
-    body: JSON.stringify({ status: 200, message: 'ts-sample' })
-  });
+  try {
+    func();
+
+    response = {
+      'statusCode': 200,
+      'body': JSON.stringify({
+        message: 'typescript - ' + getMessage(),
+      })
+    };
+  } catch (err) {
+    console.log(err);
+    return err;
+  }
+
+  return response;
 };
-
-export {handler};

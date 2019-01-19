@@ -15,7 +15,6 @@ API definitions built with TypeScript are also included.
 
 # Used library
 
-* aws-lambda
 * TypeScript
 * Webpack
 

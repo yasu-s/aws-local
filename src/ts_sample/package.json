@@ -5,11 +5,11 @@
   "author": "SAM CLI",
   "license": "MIT",
   "dependencies": {
-    "@yasu-s/library": "file:../library",
-    "aws-lambda": "~0.1.2"
+    "@yasu-s/library": "file:../library"
   },
   "scripts": {
-    "build": "yarn && webpack"
+    "build": "yarn && webpack --mode=development",
+    "watch": "yarn && webpack --watch --mode=development"
   },
   "devDependencies": {
     "@types/aws-lambda": "~8.10.17",
