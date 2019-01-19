@@ -48,4 +48,4 @@ sam local start-api
 
 ### src/ts_sample/app.ts
 
-![sam2](https://user-images.githubusercontent.com/2668146/51424086-6c14d280-1c0c-11e9-85fc-c132fc9b60c5.png)
+![sam2](https://user-images.githubusercontent.com/2668146/51424148-5ce25480-1c0d-11e9-9f59-f08a22ea45ff.png)
