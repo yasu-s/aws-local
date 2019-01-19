@@ -42,5 +42,10 @@ sam local start-api
 
 ## 4. Execution result  
 
+### src/hello_world/app.js
+
 ![sam](https://user-images.githubusercontent.com/2668146/51420938-acf3f380-1bda-11e9-8a2a-8b5e6d6a20be.png)
 
+### src/ts_sample/app.ts
+
+![sam2](https://user-images.githubusercontent.com/2668146/51424086-6c14d280-1c0c-11e9-85fc-c132fc9b60c5.png)
