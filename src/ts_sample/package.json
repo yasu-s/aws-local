@@ -9,8 +9,7 @@
     "aws-lambda": "~0.1.2"
   },
   "scripts": {
-    "build": "yarn && tsc",
-    "build:w": "yarn && webpack"
+    "build": "yarn && webpack"
   },
   "devDependencies": {
     "@types/aws-lambda": "~8.10.17",
