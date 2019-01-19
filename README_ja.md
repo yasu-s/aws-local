@@ -1,9 +1,9 @@
-# Overview
+# 概要
 
-AWS SAM CLI operation confirmation sample.  
-API definitions built with TypeScript are also included.
+AWS SAM CLI の動作確認用サンプルです。  
+TypeScriptでビルドしたものについてもあわせて配置しています。
 
-# System requirements
+# 実行環境
 
 * Python 
 * pip
@@ -13,35 +13,35 @@ API definitions built with TypeScript are also included.
 * Node.js
 * Yarn
 
-# Used library
+# 使用ライブラリ
 
 * aws-lambda
 * TypeScript
 * Webpack
 
-# Operation check
+# 動作確認
 
-## 1. Download Sample
+## 1. サンプルのダウンロード
 
 ```
 git clone git@github.com:yasu-s/aws-local.git
 ```
 
-## 2. Build  
+## 2. ビルド  
 
 ```
 cd aws-local/src/ts_sample
 yarn build
 ```
 
-## 3. Launch sample application  
+## 3. サンプルの起動  
 
 ```
 cd ../../
 sam local start-api
 ```
 
-## 4. Execution result  
+## 4. 実行結果  
 
 ![sam](https://user-images.githubusercontent.com/2668146/51420938-acf3f380-1bda-11e9-8a2a-8b5e6d6a20be.png)
 
